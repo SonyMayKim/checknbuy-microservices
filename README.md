@@ -1,19 +1,21 @@
 
-#CheckNBuy – Microservices Deployment Project
+# CheckNBuy – Microservices Deployment Project
 
-A cloud deployment project for CheckNBuy, a product comparison application built using multiple microservices and deployed with IBM Cloud Code Engine.
+A cloud deployment project for **CheckNBuy**, a product comparison application built using multiple microservices and deployed with **IBM Cloud Code Engine**.
 
 The project demonstrates how independent backend services can be deployed and integrated with a frontend application through REST APIs.
-Project Overview
+
+## Project Overview
 
 The CheckNBuy application consists of three microservices:
 
-    Product Details – provides product and dealer information.
-    Dealer Pricing – provides pricing information for products and dealers.
-    Dealer Evaluation – frontend application that allows users to search for products, view available dealers, and compare prices.
+- **Product Details** – provides product and dealer information.
+- **Dealer Pricing** – provides pricing information for products and dealers.
+- **Dealer Evaluation** – frontend application that allows users to search for products, view available dealers, and compare prices.
 
 For this project, the backend microservices were deployed first. The deployed API endpoints were then configured in the Dealer Evaluation frontend before deploying the frontend application.
-Architecture
+
+## Architecture
 
                     CheckNBuy
                         │
