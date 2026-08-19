@@ -152,21 +152,64 @@ The following scenarios were successfully tested:
 
 Screenshots
 
-Screenshots demonstrating the project can be added to this repository.
+The following screenshots demonstrate the successful deployment and functionality of the CheckNBuy microservices.
 
-Recommended screenshots include:
+Screenshots include:
+### 1. Product Details Microservice Deployment
 
-    Product Details successful deployment
-    Dealer Pricing successful deployment
-    Cloned Dealer Evaluation repository
-    Updated API endpoints in index.html
-    Successful Dealer Evaluation frontend deployment
-    Product dropdown populated
-    Dealers displayed for a selected product
-    Individual dealer price displayed
-    All dealer prices displayed
+The Product Details microservice was successfully deployed using IBM Cloud Code Engine.
 
-Learning Outcomes
+![Product Details Deployment](screenshots/product_details_deploy.jpeg)
+
+### 2. Dealer Pricing Microservice Deployment
+
+The Dealer Pricing microservice was successfully deployed using IBM Cloud Code Engine.
+
+![Dealer Pricing Deployment](screenshots/dealer_details_details.jpeg)
+
+### 3. Dealer Evaluation Repository
+
+The Dealer Evaluation frontend repository was successfully cloned.
+
+![Git Clone](screenshots/git_clone.jpeg)
+
+### 4. API Endpoints Configured
+
+The deployed Product Details and Dealer Pricing API URLs were configured in `index.html`.
+
+![API Endpoint Changes](screenshots/index_urlchanges.jpeg)
+
+### 5. Dealer Evaluation Frontend Deployment
+
+The Dealer Evaluation frontend was successfully deployed using IBM Cloud Code Engine.
+
+![Frontend Deployment](screenshots/frontend_deploy.jpeg)
+
+### 6. Products Preloaded
+
+The deployed frontend displays the available products in the product dropdown.
+
+![Homepage](screenshots/homepage.jpeg)
+
+### 7. Dealers for Selected Product
+
+After selecting a product, the dealers supplying that product are displayed.
+
+![Product Dealers](screenshots/product_dealer.jpeg)
+
+### 8. Individual Dealer Price
+
+After selecting a dealer, the price offered by that dealer is displayed.
+
+![Dealer Price](screenshots/product_dealer_price.jpeg)
+
+### 9. All Dealer Prices
+
+When **All Dealers** is selected, the prices offered by all dealers for the selected product are displayed.
+
+![All Dealer Prices](screenshots/product_all_dealers_prices.jpeg)
+
+### Learning Outcomes
 
 This project provided hands-on experience with:
 
